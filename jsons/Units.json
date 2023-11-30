@@ -14,4 +14,11 @@
 		"promotions": ["Logistics","Accuracy I"],
 		"attackSound": "phasers"
 	}
+	{
+		"name": "Drone",
+		"unitType": "Civilian",
+		"movement": 2,
+		"uniques": ["Founds a new city <by consuming this unit>","Can build [Land] improvements on tiles", "Automation is a primary action"],
+		"cost": 50
+	},
 ]
