@@ -17,8 +17,19 @@
 	{
 		"name": "Drone",
 		"unitType": "Civilian",
+		"uniqueTo": "Aliens",
 		"movement": 2,
-		"uniques": ["Founds a new city <by consuming this unit>","Can build [Land] improvements on tiles", "Automation is a primary action"],
 		"cost": 50
+		"uniques": ["Founds a new city <by consuming this unit>","Can build [Land] improvements on tiles", "Automation is a primary action"],
 	},
+	{
+		"name": "Zergling",
+		"unitType": "Sword",
+		"uniqueTo": "Aliens",
+		"movement": 4,
+		"strength": 35,
+		"cost": 50,
+		"uniques": ["Can move after attacking","Unit will heal every turn, even if it performs an action"],
+		"attackSound": "nonmetalhit",
+	}
 ]
