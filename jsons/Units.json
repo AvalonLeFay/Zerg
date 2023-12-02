@@ -17,7 +17,7 @@
 	{
 		"name": "Drone",
 		"unitType": "Civilian",
-		"uniqueTo": "Aliens",
+		"uniqueTo": "Zerg",
 		"movement": 2,
 		"cost": 50
 		"uniques": ["Founds a new city <by consuming this unit>","Can build [Land] improvements on tiles", "Automation is a primary action"],
@@ -25,11 +25,94 @@
 	{
 		"name": "Zergling",
 		"unitType": "Sword",
-		"uniqueTo": "Aliens",
+		"uniqueTo": "Zerg",
 		"movement": 4,
-		"strength": 35,
-		"cost": 50,
-		"uniques": ["Can move after attacking","Unit will heal every turn, even if it performs an action"],
+		"strength": 18,
+		"cost": 25,
+		"upgradesTo": "Baneling",
+		"uniques": ["Can move after attacking","Unit will heal every turn, even if it performs an action","[2] additional attacks per turn",
+		"Damage is ignored when determining unit Strength"],
 		"attackSound": "nonmetalhit",
-	}
+	},
+	{
+		"name": "Roach",
+		"unitType": "Archery",
+		"uniqueTo": "Zerg",
+		"movement": 3,
+		"strength": 72,
+		"rangedStrength": 12,
+		"cost": 125,
+		"upgradesTo": "Ravager",
+		"uniques": ["Unit will heal every turn, even if it performs an action","[14] HP when healing","Damage is ignored when determining unit Strength"],
+		"requiredTech": "Archery",
+		"attackSound": "arrow"
+	},
+	{
+		"name": "Baneling",
+		"unitType": "Sword",
+		"replaces": "Spearman",
+		"uniqueTo": "Zerg",
+		"movement": 3,
+		"strength": 15,
+		"cost": 100,
+		"requiredTech": "Bronze Working",
+		"requiredResource": "Horses",
+		"uniques": ["[+300]% Strength <vs cities> <when attacking>", "Destroys tile improvements when attacking", "[-33]% Strength <when defending>",
+		"Self-destructs when attacking", "Unit will heal every turn, even if it performs an action","Damage is ignored when determining unit Strength"],
+		"promotions":  ["Cover I"],
+		"attackSound": "throw"
+	},
+	{
+		"name": "Ravager",
+		"unitType": "Archery",
+		"movement": 2,
+		"strength": 60,
+		"rangedStrength": 16,
+		"cost": 300,"
+		"requiredTech": "Construction",
+		"requiredResource": "Iron",
+		"uniques": ["[+60]% Strength","Unit will heal every turn, even if it performs an action","Destroys tile improvements when attacking","Damage is ignored when determining unit Strength"],
+		"attackSound": "arrow"
+	},
+	{
+		"name": "Hydralisk",
+		"unitType": "Archery",
+		"replaces": "Knight",
+		"uniqueTo": "Zerg",
+		"movement": 3,
+		"strength": 45,
+		"rangedStrength": 22,
+		"cost": 200,
+		"requiredTech": "Chivalry",
+		"upgradesTo": "Lurker",
+		"uniques": ["Can move after attacking","No defensive terrain bonus","Unit will heal every turn, even if it performs an action","[6] Range", "Can perform Air Sweep"
+		"[+30]% Strength when performing Air Sweep","Damage is ignored when determining unit Strength"],
+		"attackSound": "arrow"
+	},
+	{
+		"name": "Lurker",
+		"unitType": "Siege",
+		"uniqueTo": "Zerg",
+		"movement": 5,
+		"strength": 100,
+		"rangedStrength": 15,
+		"cost": 450,
+		"requiredTech": "Machinery",
+		"requiredResource": "Iron",
+		"uniques": ["Unit will heal every turn, even if it performs an action","[10] Range","Must set up to ranged attack",""Damage is ignored when determining unit Strength""
+		"Ranged attacks may be performed over obstacles","Invisible to non-adjacent units"],
+		"attackSound": "crossbow"
+	},
+	{
+		"name": "Ultalisk",
+		"unitType": "Armored",
+		"uniqueTo": "Zerg",
+		"movement": 5,
+		"strength": 250,
+		"cost": 475,
+		"requiredTech": "Nuclear Fusion",
+		"requiredResource": "Uranium",
+		"uniques": ["Can move after attacking", "[+300]% Strength <vs cities> <when attacking>", "Damage is ignored when determining unit Strength"],
+		"attackSound": "gdrAttack"
+	},
 ]
