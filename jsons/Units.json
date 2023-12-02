@@ -5,7 +5,8 @@
 		"uniqueTo": "Zerg",
 		"movement": 2,
 		"cost": 50
-		"uniques": ["Founds a new city <by consuming this unit>","Can build [Land] improvements on tiles", "Automation is a primary action"],
+		"uniques": ["Founds a new city <by consuming this unit>","Can build [Land] improvements on tiles",
+		"Automation is a primary action"],
 	},
 	{
 		"name": "Zergling",
@@ -15,8 +16,8 @@
 		"strength": 18,
 		"cost": 25,
 		"upgradesTo": "Baneling",
-		"uniques": ["Can move after attacking","Unit will heal every turn, even if it performs an action","[2] additional attacks per turn",
-		"Damage is ignored when determining unit Strength"],
+		"uniques": ["Can move after attacking","Unit will heal every turn, even if it performs an action",
+		"[2] additional attacks per turn","Damage is ignored when determining unit Strength"],
 		"attackSound": "nonmetalhit",
 	},
 	{
@@ -28,7 +29,8 @@
 		"rangedStrength": 12,
 		"cost": 125,
 		"upgradesTo": "Ravager",
-		"uniques": ["Unit will heal every turn, even if it performs an action","[14] HP when healing","Damage is ignored when determining unit Strength"],
+		"uniques": ["Unit will heal every turn, even if it performs an action",
+		"[14] HP when healing","Damage is ignored when determining unit Strength"],
 		"requiredTech": "Archery",
 		"attackSound": "arrow"
 	},
@@ -42,7 +44,7 @@
 		"cost": 100,
 		"requiredTech": "Bronze Working",
 		"requiredResource": "Horses",
-		"uniques": ["[+300]% Strength <vs cities> <when attacking>", "Destroys tile improvements when attacking", "[-33]% Strength <when defending>",
+		"uniques": ["[+300]% Strength <vs cities> <when attacking>","Destroys tile improvements when attacking","[-33]% Strength <when defending>",
 		"Self-destructs when attacking", "Unit will heal every turn, even if it performs an action","Damage is ignored when determining unit Strength"],
 		"promotions":  ["Cover I"],
 		"attackSound": "throw"
@@ -97,7 +99,7 @@
 		"cost": 475,
 		"requiredTech": "Nuclear Fusion",
 		"requiredResource": "Uranium",
-		"uniques": ["Can move after attacking", "[+300]% Strength <vs cities> <when attacking>", "Damage is ignored when determining unit Strength"],
+		"uniques": ["Can move after attacking","[+300]% Strength <vs cities> <when attacking>","Damage is ignored when determining unit Strength"],
 		"attackSound": "gdrAttack"
 	},
 ]
