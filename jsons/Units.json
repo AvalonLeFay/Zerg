@@ -45,7 +45,7 @@
 		"requiredTech": "Bronze Working",
 		"requiredResource": "Horses",
 		"uniques": ["[+300]% Strength <vs cities> <when attacking>","Destroys tile improvements when attacking","[-33]% Strength <when defending>",
-		"Self-destructs when attacking", "Unit will heal every turn, even if it performs an action","Damage is ignored when determining unit Strength"],
+		"Self-destructs when attacking","Unit will heal every turn, even if it performs an action","Damage is ignored when determining unit Strength"],
 		"promotions":  ["Cover I"],
 		"attackSound": "throw"
 	},
