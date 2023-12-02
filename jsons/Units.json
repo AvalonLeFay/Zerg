@@ -18,7 +18,6 @@
 		"upgradesTo": "Baneling",
 		"uniques": ["Can move after attacking","Unit will heal every turn, even if it performs an action",
 		"[2] additional attacks per turn","Damage is ignored when determining unit Strength"],
-		"attackSound": "nonmetalhit",
 	},
 	{
 		"name": "Roach",
@@ -46,8 +45,6 @@
 		"requiredResource": "Horses",
 		"uniques": ["[+300]% Strength <vs cities> <when attacking>","Destroys tile improvements when attacking","[-33]% Strength <when defending>",
 		"Self-destructs when attacking","Unit will heal every turn, even if it performs an action","Damage is ignored when determining unit Strength"],
-		"promotions":  ["Cover I"],
-		"attackSound": "throw"
 	},
 	{
 		"name": "Ravager",
@@ -74,7 +71,6 @@
 		"upgradesTo": "Lurker",
 		"uniques": ["Can move after attacking","No defensive terrain bonus","Unit will heal every turn, even if it performs an action","[6] Range", "Can perform Air Sweep"
 		"[+30]% Strength when performing Air Sweep","Damage is ignored when determining unit Strength"],
-		"attackSound": "arrow"
 	},
 	{
 		"name": "Lurker",
@@ -100,6 +96,5 @@
 		"requiredTech": "Nuclear Fusion",
 		"requiredResource": "Uranium",
 		"uniques": ["Can move after attacking","[+300]% Strength <vs cities> <when attacking>","Damage is ignored when determining unit Strength"],
-		"attackSound": "gdrAttack"
 	},
 ]
