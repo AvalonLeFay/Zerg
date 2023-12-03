@@ -48,9 +48,9 @@
 		"cost": 300,
 		"cityStrength": 1,
 		"cityHealth": 1500,
-		"percentStatBonus": {"production": 72},
+		"percentStatBonus": {"food": 72},
 		"requiredTech": "Masonry",
-		"uniques": ["Destroyed when the city is captured", "[Wounded] Units adjacent to this city heal [50] HP per turn when healing"]
+		"uniques": ["Destroyed when the city is captured", "[Wounded] Units adjacent to this city heal [50] HP per turn when healing", "[6] Unit Supply"]
 	},
 	{
 		"name": "Evolution Chamber",
@@ -65,11 +65,15 @@
 	{
 		"name": "Lair",
 		"uniqueTo": "Zerg",
+		"production": 5,
+	  	"gold": 5,
+		"food": 6,
 		"cityStrength": 1,
 		"cityHealth": 2000,
 		"cost": 675,
+		"percentStatBonus": {"food": 128},
 		"requiredBuilding": "Hatchery",
 		"requiredTech": "Chivalry",
-		"uniques": ["Destroyed when the city is captured"]
+		"uniques": ["Destroyed when the city is captured", "[6] Unit Supply"]
 	},
 ]
