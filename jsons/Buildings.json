@@ -41,12 +41,15 @@
 	{
 		"name": "Hatchery",
 		"uniqueTo": "Zerg",
+		"production": 5,
+	  	"gold": 5,
 		"food": 6,
 		"specialistSlots": {"Engineer": 16},
 		"cost": 300,
 		"cityStrength": 1,
 		"cityHealth": 1500,
+		"percentStatBonus": {"production": 72},
 		"requiredTech": "Masonry",
-		"uniques": ["Destroyed when the city is captured", "[+5 Gold, +11 Production] per [1] population [in this cities]", "[Wounded] Units adjacent to this city heal [50] HP per turn when healing"]
+		"uniques": ["Destroyed when the city is captured", "[Wounded] Units adjacent to this city heal [50] HP per turn when healing"]
 	},
 ]
