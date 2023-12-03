@@ -52,4 +52,24 @@
 		"requiredTech": "Masonry",
 		"uniques": ["Destroyed when the city is captured", "[Wounded] Units adjacent to this city heal [50] HP per turn when healing"]
 	},
+	{
+		"name": "Evolution Chamber",
+		"uniqueTo": "Zerg",
+		"isWonder": true,
+		"maintenance": 2,
+		"cost": 75,
+		"percentStatBonus": {"science": 75},
+		"specialistSlots": {"Scientist": 3},
+		"uniques": ["[+3 Science, +3 Culture] per [3] population [in all cities]", "[-33]% Culture cost of adopting new Policies", "[-90]% unhappiness from the number of cities"],
+	},
+	{
+		"name": "Lair",
+		"uniqueTo": "Zerg",
+		"cityStrength": 1,
+		"cityHealth": 2000,
+		"cost": 675,
+		"requiredBuilding": "Hatchery",
+		"requiredTech": "Chivalry",
+		"uniques": ["Destroyed when the city is captured"]
+	},
 ]
