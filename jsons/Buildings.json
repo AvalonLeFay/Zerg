@@ -41,9 +41,8 @@
 	{
 		"name": "Hatchery",
 		"uniqueTo": "Zerg",
-		"production": 5,
 		"food": 6,
-		"gold": 5,
+		"specialistSlots": {"Engineer": 16},
 		"cost": 300,
 		"cityStrength": 1,
 		"cityHealth": 1500,
