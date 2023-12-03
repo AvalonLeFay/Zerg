@@ -27,9 +27,9 @@
  		"uniqueTo": "Zerg",
 		"isWonder": true,
 		"production": 5,
-	  	"food": 5,
+	  	"gold": 5,
 		"cost": 25,
-		"uniques": ["Destroyed when the city is captured", "[+7 Food, +10 Production] per [3] population [in all cities]"],
+		"uniques": ["Destroyed when the city is captured", "[+5 Gold, +4 Production] per [1] population [in all cities]"],
 	},
   	{
 		"name": "Spawning Pool",
@@ -37,5 +37,15 @@
 		"isWonder": true,
 		"cost": 200,
 		"uniques": ["Destroyed when the city is captured", "New [Military] units start with [46] Experience [in all cities]"]
+	},
+	{
+		"name": "Hatchery",
+		"uniqueTo": "Zerg",
+		"food": 6,
+		"cost": 300,
+		"cityStrength": 1,
+		"cityHealth": 1500,
+		"requiredTech": "Masonry",
+		"uniques": ["Destroyed when the city is captured", "[+11 Production] per [1] population [in this cities]"]
 	},
 ]
