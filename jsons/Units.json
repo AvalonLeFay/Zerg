@@ -48,7 +48,7 @@
 		"movement": 2,
 		"strength": 60,
 		"rangedStrength": 16,
-		"cost": 300,"
+		"cost": 300,
 		"requiredTech": "Construction",
 		"requiredResource": "Iron",
 		"uniques": ["[+60]% Strength", "Unit will heal every turn, even if it performs an action", "Destroys tile improvements when attacking", "Damage is ignored when determining unit Strength"],
