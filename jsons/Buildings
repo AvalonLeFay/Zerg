@@ -1,5 +1,4 @@
 [
-
   	{
 		"name": "Extractor",
  		"uniqueTo": "Zerg",
@@ -10,7 +9,7 @@
 		"uniques": ["[+7 Food, +10 Production] per [3] population [in alcities]"],
 	},
   	{
-		"name": "Palace",
+		"name": "Spawning Pool",
 		"uniqueTo": "Zerg",
 		"isNationalWonder": true,
 		"cost": 200,
