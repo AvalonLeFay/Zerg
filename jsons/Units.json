@@ -3,7 +3,7 @@
 		"name": "Drone",
 		"unitType": "Civilian",
 		"uniqueTo": "Zerg",
-		"movement": 2,
+		"movement": 3,
 		"cost": 50
 		"uniques": ["Invisible to non-adjacent units", "Can build [Land] improvements on tiles", "Automation is a primary action", "Can move immediately once bought"],
 	},
@@ -13,9 +13,9 @@
 		"uniqueTo": "Zerg",
 		"movement": 4,
 		"strength": 18,
-		"cost": 25,
+		"cost": 50,
 		"upgradesTo": "Baneling",
-		"uniques": ["Can move after attacking","Unit will heal every turn, even if it performs an action", "[2] additional attacks per turn", "Damage is ignored when determining unit Strength", "Can move immediately once bought"],
+		"uniques": ["Can move after attacking","Unit will heal every turn, even if it performs an action", "[2] additional attacks per turn", "Damage is ignored when determining unit Strength", "Can move immediately once bought",  "Free [Zergling] appears"],
 	},
 	{
 		"name": "Roach",
@@ -56,15 +56,14 @@
 	{
 		"name": "Hydralisk",
 		"unitType": "Archery",
-		"replaces": "Knight",
 		"uniqueTo": "Zerg",
 		"movement": 3,
 		"strength": 45,
 		"rangedStrength": 22,
 		"cost": 200,
-		"requiredTech": "Chivalry",
+		"requiredTech": "Metallurgy",
 		"upgradesTo": "Lurker",
-		"uniques": ["Can move after attacking", "No defensive terrain bonus", "Unit will heal every turn, even if it performs an action", "[6] Range", "Can perform Air Sweep", "Damage is ignored when determining unit Strength"],
+		"uniques": ["Can move after attacking", "No defensive terrain bonus", "Unit will heal every turn, even if it performs an action", "[6] Range", "Can perform Air Sweep", "Damage is ignored when determining unit Strength", "[2] additional attacks per turn"],
 	},
 	{
 		"name": "Lurker",
@@ -76,7 +75,7 @@
 		"cost": 450,
 		"requiredTech": "Machinery",
 		"requiredResource": "Iron",
-		"uniques": ["Unit will heal every turn, even if it performs an action", "[10] Range", "Must set up to ranged attack", "Damage is ignored when determining unit Strength", "Invisible to non-adjacent units"],
+		"uniques": ["Unit will heal every turn, even if it performs an action", "[10] Range", "Must set up to ranged attack", "[1] additional attacks per turn", "Invisible to non-adjacent units", "[+200]% Strength <vs cities> <when attacking>"],
 		"attackSound": "crossbow"
 	},
 	{
