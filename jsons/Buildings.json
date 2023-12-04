@@ -36,7 +36,7 @@
 		"uniqueTo": "Zerg",
 		"isWonder": true,
 		"cost": 200,
-		"uniques": ["Destroyed when the city is captured", "New [Military] units start with [46] Experience [in all cities]", "[+60]% Production when constructing [Military] units [in all cities]"]
+		"uniques": ["Destroyed when the city is captured", "New [Military] units start with [46] Experience [in all cities]", "[+30]% Production when constructing [Military] units [in all cities]"]
 	},
 	{
 		"name": "Hatchery",
