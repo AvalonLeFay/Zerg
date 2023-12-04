@@ -61,7 +61,7 @@
 		"strength": 45,
 		"rangedStrength": 22,
 		"cost": 200,
-		"requiredTech": "Metallurgy",
+		"requiredTech": "Machinery",
 		"upgradesTo": "Lurker",
 		"uniques": ["Can move after attacking", "No defensive terrain bonus", "Unit will heal every turn, even if it performs an action", "[6] Range", "Can perform Air Sweep", "Damage is ignored when determining unit Strength", "[2] additional attacks per turn"],
 	},
@@ -73,7 +73,7 @@
 		"strength": 100,
 		"rangedStrength": 15,
 		"cost": 450,
-		"requiredTech": "Machinery",
+		"requiredTech": "Metallurgy",
 		"requiredResource": "Iron",
 		"uniques": ["Unit will heal every turn, even if it performs an action", "[10] Range", "Must set up to ranged attack", "[1] additional attacks per turn", "Invisible to non-adjacent units", "[+200]% Strength <vs cities> <when attacking>"],
 		"attackSound": "crossbow"
