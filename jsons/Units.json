@@ -5,7 +5,7 @@
 		"uniqueTo": "Zerg",
 		"movement": 3,
 		"cost": 50
-		"uniques": ["Invisible to non-adjacent units", "Can build [Land] improvements on tiles", "Automation is a primary action", "Can move immediately once bought"],
+		"uniques": ["Invisible to non-adjacent units", "Can build [Land] improvements on tiles", "Automation is a primary action", "Can move immediately once bought", "[2] Free [Zergling] appears"],
 	},
 	{
 		"name": "Zergling",
@@ -13,9 +13,9 @@
 		"uniqueTo": "Zerg",
 		"movement": 4,
 		"strength": 18,
-		"cost": 50,
+		"cost": 25,
 		"upgradesTo": "Baneling",
-		"uniques": ["Can move after attacking","Unit will heal every turn, even if it performs an action", "[2] additional attacks per turn", "Damage is ignored when determining unit Strength", "Can move immediately once bought",  "Free [Zergling] appears"],
+		"uniques": ["Can move after attacking","Unit will heal every turn, even if it performs an action", "[2] additional attacks per turn", "Damage is ignored when determining unit Strength", "Can move immediately once bought"],
 	},
 	{
 		"name": "Roach",
