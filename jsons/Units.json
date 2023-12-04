@@ -26,7 +26,7 @@
 		"rangedStrength": 12,
 		"cost": 125,
 		"upgradesTo": "Ravager",
-		"uniques": ["Unit will heal every turn, even if it performs an action", "[14] HP when healing", "Damage is ignored when determining unit Strength"],
+		"uniques": ["Unit will heal every turn, even if it performs an action", "All healing effects doubled", "Damage is ignored when determining unit Strength", "May heal outside of friendly territory"],
 		"requiredTech": "Archery",
 		"attackSound": "arrow"
 	},
