@@ -3,9 +3,10 @@
 		"name": "Drone",
 		"unitType": "Civilian",
 		"uniqueTo": "Zerg",
+		"replaces": "Worker",
 		"movement": 3,
 		"cost": 50
-		"uniques": ["Invisible to non-adjacent units", "Can build [Land] improvements on tiles", "Automation is a primary action", "Can move immediately once bought"],
+		"uniques": ["Invisible to non-adjacent units", "Can build [Land] improvements on tiles", "Automation is a primary action", "Can move immediately once bought", "Can speed up construction of a building"],
 	},
 	{
 		"name": "Overlord",
