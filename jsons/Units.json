@@ -14,7 +14,7 @@
 		"uniqueTo": "Zerg",
 		"movement": 1,
 		"cost": 100
-		"uniques": ["[8] Unit Supply", "[+2 Happiness]"],
+		"uniques": ["[8] Unit Supply", "[+2 Happiness]", "All tiles cost 1 movement"],
 	},
 	{
 		"name": "Broodling",
