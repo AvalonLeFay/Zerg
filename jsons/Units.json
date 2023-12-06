@@ -9,23 +9,6 @@
 		"uniques": ["Invisible to non-adjacent units", "Can build [Land] improvements on tiles", "Automation is a primary action", "Can move immediately once bought", "Can speed up construction of a building"],
 	},
 	{
-		"name": "Overlord",
-		"unitType": "Civilian",
-		"uniqueTo": "Zerg",
-		"movement": 1,
-		"cost": 100
-		"uniques": ["[8] Unit Supply", "[+2 Happiness]", "All tiles cost 1 movement"],
-	},
-	{
-		"name": "Broodling",
-		"unitType": "Sword",
-		"uniqueTo": "Zerg",
-		"movement": 5,
-		"strength": 10,
-		"cost": 1,
-		"uniques": ["Can move after attacking","Unit will heal every turn, even if it performs an action", "[4] additional attacks per turn", "Damage is ignored when determining unit Strength", "Can move immediately once bought"],
-	},
-	{
 		"name": "Zergling",
 		"unitType": "Sword",
 		"uniqueTo": "Zerg",
@@ -33,7 +16,7 @@
 		"strength": 18,
 		"cost": 25,
 		"upgradesTo": "Baneling",
-		"uniques": ["Can move after attacking","Unit will heal every turn, even if it performs an action", "[2] additional attacks per turn", "Damage is ignored when determining unit Strength", "Can move immediately once bought"],
+		"uniques": ["Can move after attacking","Unit will heal every turn, even if it performs an action", "[3] additional attacks per turn", "Damage is ignored when determining unit Strength", "Can move immediately once bought"],
 	},
 	{
 		"name": "Roach",
@@ -57,7 +40,7 @@
 		"cost": 100,
 		"requiredTech": "Bronze Working",
 		"requiredResource": "Horses",
-		"uniques": ["[+300]% Strength <vs cities> <when attacking>", "Destroys tile improvements when attacking", "Self-destructs when attacking", "Unit will heal every turn, even if it performs an action","Damage is ignored when determining unit Strength"],
+		"uniques": ["[+300]% Strength <vs cities> <when attacking>", "[+60]% Strength <when attacking>", "Self-destructs when attacking", "Unit will heal every turn, even if it performs an action","Damage is ignored when determining unit Strength"],
 	},
 	{
 		"name": "Ravager",
@@ -69,7 +52,7 @@
 		"cost": 300,
 		"requiredTech": "Construction",
 		"requiredResource": "Iron",
-		"uniques": ["[+60]% Strength", "Unit will heal every turn, even if it performs an action", "Destroys tile improvements when attacking", "Damage is ignored when determining unit Strength"],
+		"uniques": ["Earn [60]% of the damage done to [City] units as [Gold]", "Unit will heal every turn, even if it performs an action", "Destroys tile improvements when attacking", "Damage is ignored when determining unit Strength"],
 	},
 	{
 		"name": "Hydralisk",
@@ -81,7 +64,7 @@
 		"cost": 200,
 		"requiredTech": "Machinery",
 		"upgradesTo": "Lurker",
-		"uniques": ["Can move after attacking", "No defensive terrain bonus", "Unit will heal every turn, even if it performs an action", "[6] Range", "Can perform Air Sweep", "Damage is ignored when determining unit Strength", "[2] additional attacks per turn"],
+		"uniques": ["Can move after attacking", "No defensive terrain bonus", "Unit will heal every turn, even if it performs an action", "[+4] Range", "Can perform Air Sweep", "Damage is ignored when determining unit Strength", "[2] additional attacks per turn"],
 	},
 	{
 		"name": "Lurker",
@@ -93,7 +76,7 @@
 		"cost": 450,
 		"requiredTech": "Metallurgy",
 		"requiredResource": "Iron",
-		"uniques": ["Unit will heal every turn, even if it performs an action", "[10] Range", "Must set up to ranged attack", "[1] additional attacks per turn", "Invisible to non-adjacent units", "[+200]% Strength <vs cities> <when attacking>"],
+		"uniques": ["Unit will heal every turn, even if it performs an action", "[+8] Range", "Must set up to ranged attack", "[2] additional attacks per turn", "Invisible to non-adjacent units", "[+200]% Strength <when attacking>"],
 		"attackSound": "crossbow"
 	},
 	{
@@ -105,6 +88,6 @@
 		"cost": 475,
 		"requiredTech": "Nuclear Fusion",
 		"requiredResource": "Uranium",
-		"uniques": ["Can move after attacking", "[+300]% Strength <vs cities> <when attacking>", "Damage is ignored when determining unit Strength"],
+		"uniques": ["Can move after attacking", "[+50]% Strength <vs cities> <when attacking>", "Damage is ignored when determining unit Strength", "[+60]% Strength <when defending>"],
 	},
 ]
