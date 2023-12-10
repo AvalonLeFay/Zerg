@@ -30,7 +30,7 @@
 		"outerColor": [16,16,16],
 		"innerColor": [255,200,200],
 		"uniqueName": "Swarm",
-		"uniques": ["Earn [100]% of killed [Military] unit's [Cost] as [Science]", "[+5 Food] from every specialist [in all cities]","[+100]% XP gained from combat"],
+		"uniques": ["Earn [100]% of killed [Military] unit's [Cost] as [Science]", "[+5 Food, +5 Gold] from every specialist [in all cities]","[+100]% XP gained from combat"],
 		"cities": ["The Hive","Q'Throczan","Q'Chovex","Q'Imphet","Q'Omphead","Q'Grecoks","Q'Vrelzieks","Q'Vronens","Q'Aerlae",
 			"Q'Phulnoith","Q'Creved","Q'Xirqen","Q'Gax","Q'Threqals","Q'Bhilmuk","Q'Mazea","Q'Zomirs","Q'Drorkrex","Q'Honkrath",
 			"Q'Zulgra","Q'Vahars","Q'Crindith","Q'Raavraes","Q'Bhoknais","Qho'Qru","Q'Dateatz","Q'Elnad","Q'Izien","Qol'Ell",
