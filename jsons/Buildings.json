@@ -36,7 +36,7 @@
 		"maintenance": 3,
 		"cost": 75,
 		"specialistSlots": {"Scientist": 3},
-		"uniques": ["[+3 Science, +3 Culture] per [3] population [in all cities]", "[-33]% Culture cost of adopting new Policies", "[-30]% unhappiness from the number of cities"],
+		"uniques": ["[+1 Science, +1 Culture] per [3] population [in all cities]", "[-33]% Culture cost of adopting new Policies", "[-30]% unhappiness from the number of cities"],
 	},
 	{
 		"name": "Lair",
@@ -87,7 +87,8 @@
 		"cityHealth": 400,
 		"maintenance": 21,
 		"cost": 75,
+		"requiredBuilding": "Spine Crawler",
 		"requiredTech": "Masonry",
-		"uniques": ["[+3 Science, +3 Culture] per [3] population [in all cities]", "[-33]% Culture cost of adopting new Policies", "[-30]% unhappiness from the number of cities"],
+		"uniques": ["Destroyed when the city is captured"],
 	},
 ]
