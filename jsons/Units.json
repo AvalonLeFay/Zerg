@@ -41,7 +41,7 @@
 		"movement": 5,
 		"strength": 18,
 		"cost": 25,
-		"upgradesTo": "Baneling",
+		"upgradesTo": "Hunter Bane",
 		"uniques": ["Can move after attacking","Unit will heal every turn, even if it performs an action", "[2] additional attacks per turn", "Damage is ignored when determining unit Strength", "Can move immediately once bought", "[+20]% Strength <when attacking>"],
 		"requiredTech": "Steel",
 	},
