@@ -36,7 +36,7 @@
 		"maintenance": 3,
 		"cost": 75,
 		"specialistSlots": {"Scientist": 3},
-		"uniques": ["Destroyed when the city is captured", "[+1 Science, +1 Culture] per [3] population [in all cities]", "[-30]% unhappiness from the number of cities"],
+		"uniques": ["Destroyed when the city is captured"],
 	},
 	{
 		"name": "Lair",
@@ -52,7 +52,7 @@
 		"percentStatBonus": {"food": 28},
 		"requiredBuilding": "Hatchery",
 		"requiredTech": "Chivalry",
-		"uniques": ["Destroyed when the city is captured", "[6] Unit Supply", "[2] Free [Worker] appears"]
+		"uniques": ["Destroyed when the city is captured", "[6] Unit Supply", "[2] free [Drone] units appear"]
 	},
 	{
 		"name": "Hive",
@@ -62,13 +62,13 @@
 	  	"gold": 5,
 		"food": 6,
 		"happiness": 16,
-		"specialistSlots": {"Engineer": 3},
+		"specialistSlots": {"Engineer": 6},
 		"cost": 1200,
 		"cityStrength": 1,
 		"cityHealth": 2500,
 		"requiredBuilding": "Lair",
 		"requiredTech": "Metallurgy",
-		"uniques": ["Destroyed when the city is captured", "[6] Unit Supply", "[2] Free [Worker] appears", "[+36]% [Food] [in all cities]", "[+1] Movement <for [Military] units>"]
+		"uniques": ["Destroyed when the city is captured", "[6] Unit Supply", "[2] free [Drone] units appear", "[+36]% [Food] [in all cities]", "[+1] Movement <for [Military] units>"]
 	},
 	{
 		"name": "Spine Crawler",
