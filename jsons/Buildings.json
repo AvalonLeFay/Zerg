@@ -13,7 +13,7 @@
 		"uniqueTo": "Zerg",
 		"isWonder": true,
 		"cost": 200,
-		"uniques": ["Destroyed when the city is captured", "[+30]% Production when constructing [Melee] units [in all cities]"]
+		"uniques": ["Destroyed when the city is captured", "[+1] Movement <for [Military] units>"]
 	},
 	{
 		"name": "Hatchery",
