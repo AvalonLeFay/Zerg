@@ -19,15 +19,13 @@
 		"name": "Hatchery",
 		"uniqueTo": "Zerg",
 		"production": 5,
-	  	"gold": 5,
 		"food": 6,
 		"happiness": 16,
 		"specialistSlots": {"Engineer": 3},
 		"cost": 300,
 		"cityStrength": 1,
 		"cityHealth": 1500,
-		"percentStatBonus": {"food": 36},
-		"uniques": ["Destroyed when the city is captured", "[Wounded] Units adjacent to this city heal [50] HP per turn when healing", "[6] Unit Supply"]
+		"uniques": ["Destroyed when the city is captured", "[+6] Unit Supply"]
 	},
 	{
 		"name": "Evolution Chamber",
@@ -42,33 +40,30 @@
 		"name": "Lair",
 		"uniqueTo": "Zerg",
 		"production": 5,
-	  	"gold": 5,
 		"food": 6,
 		"happiness": 16,
 		"cityStrength": 1,
 		"cityHealth": 2000,
 		"specialistSlots": {"Engineer": 3},
 		"cost": 675,
-		"percentStatBonus": {"food": 28},
 		"requiredBuilding": "Hatchery",
 		"requiredTech": "Chivalry",
-		"uniques": ["Destroyed when the city is captured", "[6] Unit Supply", "[2] free [Drone] units appear"]
+		"uniques": ["Destroyed when the city is captured", "[+6] Unit Supply", "[2] free [Drone] units appear"]
 	},
 	{
 		"name": "Hive",
 		"uniqueTo": "Zerg",
 		"isWonder": true,
 		"production": 5,
-	  	"gold": 5,
 		"food": 6,
 		"happiness": 16,
-		"specialistSlots": {"Engineer": 6},
+		"specialistSlots": {"Engineer": 3},
 		"cost": 1200,
 		"cityStrength": 1,
 		"cityHealth": 2500,
 		"requiredBuilding": "Lair",
 		"requiredTech": "Metallurgy",
-		"uniques": ["Destroyed when the city is captured", "[6] Unit Supply", "[2] free [Drone] units appear", "[+36]% [Food] [in all cities]", "[+1] Movement <for [Military] units>"]
+		"uniques": ["Destroyed when the city is captured", "[+6] Unit Supply", "[2] free [Drone] units appear", "[+1] Movement <for [Military] units>"]
 	},
 	{
 		"name": "Spine Crawler",
