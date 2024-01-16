@@ -14,7 +14,7 @@
 		"uniqueTo": "Zerg",
 		"replaces": "Great General",
 		"cost": 100,
-		"uniques": ["[+15]% Strength bonus for [Military] units within [3] tiles","Can be earned through combat", "Religious Unit", "Uncapturable", "Prevents spreading of religion to the city it is next to", "Can remove other religions from cities <in [Friendly] tiles> <once> <after which this unit is consumed>"],
+		"uniques": ["[+30]% Strength bonus for [Military] units within [5] tiles","Can be earned through combat", "Religious Unit", "Uncapturable", "Prevents spreading of religion to the city it is next to", "Can remove other religions from cities <in [Friendly] tiles> <once> <after which this unit is consumed>"],
 		"movement": 1
 	},
 	{
@@ -23,8 +23,8 @@
 		"uniqueTo": "Zerg",
 		"replaces": "Great Prophet",
 		"cost": 150,
-		"uniques": ["Can instantly construct a [Holy site] improvement <by consuming this unit> <if it hasn't used other actions yet>", "Can Spread Religion <for [2] movement>", "All adjacent units heal [+50] HP when healing", "[+30]% Strength bonus for [Military] units within [7] tiles","Removes other religions when spreading religion", "May found a religion <by consuming this unit> <if it hasn't used other actions yet>", "May enhance a religion <by consuming this unit>  <if it hasn't used other actions yet>", "May enter foreign tiles without open borders", "Great Person - [Faith]", "Religious Unit","Takes your religion over the one in their birth city"],
-		"movement": 1,
+		"uniques": ["Can Spread Religion <for [2] movement>", "All adjacent units heal [+50] HP when healing", "[+15]% Strength bonus for [Military] units within [3] tiles","Removes other religions when spreading religion", "May found a religion <by consuming this unit> <if it hasn't used other actions yet>", "May enhance a religion <by consuming this unit>  <if it hasn't used other actions yet>", "May enter foreign tiles without open borders", "Great Person - [Faith]", "Religious Unit","Takes your religion over the one in their birth city"],
+		"movement": 2,
 		"requiredTech": "Pottery",
 		"religiousStrength": 1750
 	},
@@ -37,7 +37,6 @@
 		"strength": 18,
 		"cost": 50,
 		"upgradesTo": "Baneling",
-		"obsoleteTech": "Iron Working",
 		"uniques": ["Can move after attacking", "Unit will heal every turn, even if it performs an action", "[2] additional attacks per turn", "Damage is ignored when determining unit Strength"],
 	},
 	{
@@ -151,7 +150,7 @@
 		"range": 12,
 		"cost": 750,
 		"requiredTech": "Radar",
-		"requiredResource": "Oil",
+		"requiredResource": "Aluminum",
 		"uniques": ["No defensive terrain bonus", "Cannot be carried by [Carrier] units", "[+2] Sight", "Can see over obstacles", "All tiles cost 1 movement", "[2] additional attacks per turn"],
 		"attackSound": "bombing"
 	},
