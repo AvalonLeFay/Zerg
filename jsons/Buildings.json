@@ -13,7 +13,7 @@
 		"uniqueTo": "Zerg",
 		"isWonder": true,
 		"cost": 200,
-		"uniques": ["Destroyed when the city is captured", "[+1] Movement <for [Military] units>"]
+		"uniques": ["Destroyed when the city is captured", "[+1] Movement <for [Melee] units>"]
 	},
 	{
 		"name": "Hatchery",
@@ -25,7 +25,7 @@
 		"cost": 300,
 		"cityStrength": 1,
 		"cityHealth": 1500,
-		"uniques": ["Destroyed when the city is captured", "[+6] Unit Supply"]
+		"uniques": ["Destroyed when the city is captured", "[+6] Unit Supply", "[2] free [Drone] units appear"]
 	},
 	{
 		"name": "Evolution Chamber",
