@@ -97,7 +97,8 @@
 		"science": 3,
 		"gold": 4,
 		"culture": 1,
-		"cityStrength": 2000,
+		"cityStrength": 1,
+		"cityHealth": 2000,
 		"cost": 1,
 		"uniques": ["Indicates the capital city", "[+50]% Production when constructing [Civilian] units [in this city]", "[+15] Unit Supply"]
 	},
@@ -129,7 +130,7 @@
 		"requiredTech": "Bronze Working"
 	},
 	{
-		"name": "Fotge",
+		"name": "Forge",
 		"uniqueTo": "Protoss",
 		"isNationalWonder": true,
 		"maintenance": 1,
