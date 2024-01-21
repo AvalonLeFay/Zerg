@@ -67,7 +67,7 @@
 		"outerColor": [16,16,16],
 		"innerColor": [110,23,137],
 		"uniqueName": "Templar",
-		"uniques": ["New [Military] units start with [100] Experience [in all cities]", "[-100]% Unhappiness from [Population] [in all cities]", "[+1 Science, +1 Culture, , +1 Faith] per [1] population [in all cities]"],
+		"uniques": ["New [Military] units start with [100] Experience [in all cities]", "[-100]% Unhappiness from [Population] [in all cities]", "[+1 Science, +1 Culture, +1 Faith] per [1] population [in all cities]"],
 		"cities": ["Aiur","Skakura","ovex","het","ad","coks","elzieks","ronens","erlae",
 			"noith","reved","Qrqen","x","hreqals","muk","ea","omirs","rorkrex","nkrath",
 			"ra","hars","rindith","Raavraes","s","'Qru","ateatz","lnad","ien","'Ell",
