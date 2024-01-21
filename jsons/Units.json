@@ -272,7 +272,7 @@
 		"attackSound": "nonmetalhit"
 	},
 	{
-		"name": "Ptotoss Immortal",
+		"name": "Protoss Immortal",
 		"unitType": "Armored",
 		"replaces": "Tank",
 		"uniqueTo": "Protoss",
@@ -284,7 +284,7 @@
 		"uniques": ["[+300]% Strength <when defending>", "[+65]% Strength <vs [Armored] units>", "Can move after attacking"],
 	},
 	{
-		"name": "Ptotoss Colossus",
+		"name": "Protoss Colossus",
 		"unitType": "Armored",
 		"replaces": "Modern Armor",
 		"uniqueTo": "Protoss",
