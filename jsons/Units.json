@@ -155,11 +155,11 @@
 		"attackSound": "bombing"
 	},
 	{
-		"name": "Prodbe",
+		"name": "Probe",
 		"unitType": "Civilian",
 		"uniqueTo": "Protoss",
 		"replaces": "Worker",
-		"movement": 3,
+		"movement": 2,
 		"cost": 50,
 		"uniques": ["Uncapturable", "Can build [Land] improvements on tiles", "Automation is a primary action", "Can move immediately once bought"],
 	},
@@ -267,7 +267,7 @@
 		"movement": 2,
 		"strength": 20,
 		"cost": 175,
-		"uniques": ["[+20]% Strength <when defending>", "Invisible to others"],
+		"uniques": ["[+20]% Strength <when defending>", "Invisible to others", "Can see over obstacles"],
 		"promotions": ["Ignore terrain cost"],
 		"attackSound": "nonmetalhit"
 	},
@@ -281,7 +281,7 @@
 		"cost": 475,
 		"requiredTech": "Combined Arms"
 		"requiredResource": "Oil"
-		"uniques": ["[+100]% Strength <when defending>", "[+65]% Strength <vs [Armored] units>", "Can move after attacking"],
+		"uniques": ["[+300]% Strength <when defending>", "[+65]% Strength <vs [Armored] units>", "Can move after attacking"],
 	},
 	{
 		"name": "Ptotoss Colossus",
@@ -308,5 +308,50 @@
 		"requiredResource": "Oil",
 		"uniques": ["[+100]% Strength <when defending>", "[+145]% Strength <when attacking>"],
 		"attackSound": "missile"
+	},
+	{
+		"name": "Phoenix",
+		"unitType": "Fighter",
+		"replaces": "Triplane",
+		"uniqueTo": "Protoss",
+		"movement": 5,
+		"strength": 60,
+		"rangedStrength": 26,
+		"range": 7,
+		"interceptRange": 7,
+		"cost": 350,
+		"requiredTech": "Flight",
+		"requiredResource": "Oil",
+		"uniques": ["[+60]% Strength <when defending>", "[100]% chance to intercept air attacks","[1] additional attacks per turn", "[+150]% Strength <vs [Bomber] units>", "[+150]% Strength <vs [Helicopter] units>"],
+		"attackSound": "machinegun"
+	},
+	{
+		"name": "Void Ray",
+		"unitType": "Helicopter",
+		"replaces": "Helicopter Gunship",
+		"uniqueTo": "Protoss",
+		"movement": 4,
+		"strength": 75,
+		"cost": 550,
+		"requiredTech": "Computers",
+		"requiredResource": "Oil",
+		"uniques": ["[+100]% Strength <when defending>", "[+100]% Strength <vs [Armored] units>", "No defensive terrain bonus", "Can move after attacking",
+			"All tiles cost 1 movement", "Ignores Zone of Control", "Unable to capture cities"],
+		"attackSound": "machinegun"
+	},
+	{
+		"name": "Tempest",
+		"unitType": "Bomber",
+		"replaces": "Stealth Bomber",
+		"uniqueTo": "Protoss",
+		"movement": 3,
+		"strength": 100,
+		"rangedStrength": 92,
+		"range": 10,
+		"cost": 600,
+		"requiredTech": "Stealth",
+		"requiredResource": "Aluminum",
+		"uniques": ["[+100]% Strength <when defending>","[+40]% Strength <vs cities> <when attacking>", "Damage taken from interception reduced by [100]%", "Cannot be carried by [Carrier] units", "[+4] Sight", "Can see over obstacles"],
+		"attackSound": "bombing"
 	},
 ]
