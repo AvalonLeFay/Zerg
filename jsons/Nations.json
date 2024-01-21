@@ -67,10 +67,10 @@
 		"outerColor": [16,16,16],
 		"innerColor": [110,23,137],
 		"uniqueName": "Templar",
-		"uniques": ["New [Military] units start with [100] Experience [in all cities]", "[-100]% Unhappiness from [Population] [in all cities]", "[+1 Science, +1 Culture, , +1 Faith, -1 Food] per [1] population [in all cities]"],
-		"cities": ["The Hive","Q'Throczan","Q'Chovex","Q'Imphet","Q'Omphead","Q'Grecoks","Q'Vrelzieks","Q'Vronens","Q'Aerlae",
-			"Q'Phulnoith","Q'Creved","Q'Xirqen","Q'Gax","Q'Threqals","Q'Bhilmuk","Q'Mazea","Q'Zomirs","Q'Drorkrex","Q'Honkrath",
-			"Q'Zulgra","Q'Vahars","Q'Crindith","Q'Raavraes","Q'Bhoknais","Qho'Qru","Q'Dateatz","Q'Elnad","Q'Izien","Qol'Ell",
-			"Q'Dhihien","Q'Naquiel","Q'Ugneon","Q'Straquks","Q'Nulptr","Q'Ohfahl"]
+		"uniques": ["New [Military] units start with [100] Experience [in all cities]", "[-100]% Unhappiness from [Population] [in all cities]", "[+1 Science, +1 Culture, , +1 Faith] per [1] population [in all cities]"],
+		"cities": ["Aiur","Skakura","ovex","het","ad","coks","elzieks","ronens","erlae",
+			"noith","reved","Qrqen","x","hreqals","muk","ea","omirs","rorkrex","nkrath",
+			"ra","hars","rindith","Raavraes","s","'Qru","ateatz","lnad","ien","'Ell",
+			"Qien","Quiel","eon","aquks","ptr","hfahl"]
 	}
 ]
