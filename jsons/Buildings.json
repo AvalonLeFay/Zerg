@@ -99,7 +99,7 @@
 		"culture": 1,
 		"cityStrength": 2000,
 		"cost": 1,
-		"uniques": ["Indicates the capital city", "[+50]% Production when constructing [Civilian] units [in this city]", "[+15] Unit Supply", "[-50]% construction time for [All] improvements"]
+		"uniques": ["Indicates the capital city", "[+50]% Production when constructing [Civilian] units [in this city]", "[+15] Unit Supply"]
 	},
 	{
 		"name": "Pylon",
