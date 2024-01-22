@@ -67,7 +67,7 @@
 		"outerColor": [240,255,0],
 		"innerColor": [0,218,255],
 		"uniqueName": "Templar",
-		"uniques": ["New [Military] units start with [100] Experience [in all cities]", "[-100]% Unhappiness from [Population] [in all cities]", "[+3 Science, +3 Culture, +3 Faith] per [1] population [in all cities]", "[-50]% Culture cost of adopting new Policies", "May buy [Military] units with [Faith] for [2] times their normal Production cost", "[-50]% construction time for [All] improvements"],
+		"uniques": ["New [Military] units start with [100] Experience [in all cities]", "[-100]% Unhappiness from [Population] [in all cities]", "[+3 Science, +3 Culture, +3 Faith] per [1] population [in all cities]", "[-50]% Culture cost of adopting new Policies", "May buy [Military] units with [Faith] for [2] times their normal Production cost"],
 		"cities": ["Aiur","Skakura","ovex","het","ad","coks","elzieks","ronens","erlae",
 			"noith","reved","Qrqen","x","hreqals","muk","ea","omirs","rorkrex","nkrath",
 			"ra","hars","rindith","Raavraes","s","'Qru","ateatz","lnad","ien","'Ell",
