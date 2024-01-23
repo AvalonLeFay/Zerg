@@ -182,12 +182,12 @@
 		"requiredTech": "Steel"
 	},
 	{
-		"name": "Robotics Facility",
+		"name": "Star Gate",
 		"replaces": "Military Academy",
 		"uniqueTo": "Protoss",
 		"maintenance": 1,
 		"cost": 450,
-		"requiredBuilding": "Cybernetics Core",
+		"requiredBuilding": "Robotics Facility",
 		"uniques": ["New [Military] units start with [100] Experience [in this city]", "Destroyed when the city is captured"],
 		"requiredTech": "Military Science"
 	},
