@@ -10,7 +10,6 @@
 	},
   	{
 		"name": "Spawning Pool",
-		"uniqueTo": "Zerg",
 		"isWonder": true,
 		"cost": 200,
 		"uniques": ["Destroyed when the city is captured", "[+1] Movement <for [Melee] units>"]
@@ -34,7 +33,7 @@
 		"maintenance": 3,
 		"cost": 75,
 		"specialistSlots": {"Scientist": 3},
-		"uniques": ["Destroyed when the city is captured"],
+		"uniques": ["Destroyed when the city is captured", "Limited to [3] per Civilization"],
 	},
 	{
 		"name": "Lair",
@@ -130,11 +129,10 @@
 	{
 		"name": "Forge",
 		"uniqueTo": "Protoss",
-		"isNationalWonder": true,
 		"maintenance": 1,
 		"cost": 150,
 		"requiredBuilding": "Pylon",
-		"uniques": ["[+30]% Strength <for [Melee] units>", "Destroyed when the city is captured"],
+		"uniques": ["[+30]% Strength <for [Melee] units>", "Destroyed when the city is captured", "Limited to [3] per Civilization"],
 		"requiredTech": "Bronze Working"
 	},
 	{
