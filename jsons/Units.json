@@ -46,9 +46,10 @@
 		"uniqueTo": "Zerg",
 		"movement": 3,
 		"strength": 72,
+		"rangedStrength": 22,
 		"cost": 125,
 		"upgradesTo": "Ravager",
-		"uniques": ["Unit will heal every turn, even if it performs an action", "All healing effects doubled", "Damage is ignored when determining unit Strength", "May heal outside of friendly territory", "No defensive terrain bonus"],
+		"uniques": ["Unit will heal every turn, even if it performs an action", "All healing effects doubled", "Damage is ignored when determining unit Strength", "May heal outside of friendly territory", "No defensive terrain bonus", "[-1] Range"],
 		"requiredTech": "Iron Working",
 		"attackSound": "arrow"
 	},
