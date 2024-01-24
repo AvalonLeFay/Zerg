@@ -10,6 +10,7 @@
 	},
   	{
 		"name": "Spawning Pool",
+		"uniqueTo": "Zerg",
 		"isWonder": true,
 		"cost": 200,
 		"uniques": ["Destroyed when the city is captured", "[+1] Movement <for [Melee] units>"]
