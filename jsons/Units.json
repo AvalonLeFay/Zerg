@@ -168,7 +168,7 @@
 		"unitType": "Sword",
 		"uniqueTo": "Protoss",
 		"replaces": "Warrior",
-		"movement": 3,
+		"movement": 4,
 		"strength": 50,
 		"cost": 100,
 		"uniques": ["[+50]% Strength <when defending>"],
@@ -212,18 +212,6 @@
 	},
 	{
 		"name": "High Templar",
-		"unitType": "Gunpowder",
-		"replaces": "Paratrooper",
-		"uniqueTo": "Protoss",
-		"movement": 2,
-		"strength": 20,
-		"rangedStrength": 7,
-		"cost": 350,
-		"requiredTech": "Chivalry",
-		"uniques": ["[+40]% Strength <when defending>", "Blast radius [2]", "[+160]% Strength <when attacking>"],
-	},
-	{
-		"name": "High Templar",
 		"unitType": "Ranged Gunpowder",
 		"replaces": "Machine Gun",
 		"uniqueTo": "Protoss",
@@ -233,7 +221,7 @@
 		"cost": 350,
 		"requiredTech": "Military Science",
 		"requiredResource": "Iron"
-		"uniques": ["[+40]% Strength <when defending>", "Blast radius [2]", "[+160]% Strength <when attacking>"],
+		"uniques": ["[+40]% Strength <when defending>", "[+800]% Strength <vs [Land] units> <when attacking>", "[+3] Range"],
 	},
 	{
 		"name": "Dark Templar",
@@ -245,7 +233,7 @@
 		"cost": 375,
 		"requiredTech": "Military Science",
 		"requiredResource": "Iron"
-		"uniques": ["[+80]% Strength <when defending>", "Invisible to others", "[+110]% Strength <when attacking>"],
+		"uniques": ["[+80]% Strength <when defending>", "Invisible to others", "[+550]% Strength <when attacking>"],
 	},
 	{
 		"name": "Archon",
@@ -253,11 +241,11 @@
 		"replaces": "Rifleman",
 		"uniqueTo": "Protoss",
 		"movement": 3,
-		"strength": 5,
+		"strength": 175,
 		"cost": 750,
 		"requiredTech": "Military Science",
 		"requiredResource": "Aluminum"
-		"uniques": ["[+1750]% Strength <when defending>", "[+2350]% Strength <when attacking>"],
+		"uniques": ["[+47]% Strength <when attacking>", "Consumes [3] [Iron]"],
 	},
 	{
 		"name": "Observer",
@@ -267,7 +255,7 @@
 		"movement": 2,
 		"strength": 20,
 		"cost": 175,
-		"uniques": ["[+20]% Strength <when defending>", "Invisible to others", "Can see over obstacles"],
+		"uniques": ["[+20]% Strength <when defending>", "Invisible to others", "Can see over obstacles", "[+3] Sight", "Can see invisible [All] units"],
 		"promotions": ["Ignore terrain cost"],
 		"attackSound": "nonmetalhit"
 	},
@@ -303,10 +291,11 @@
 		"uniqueTo": "Protoss",
 		"movement": 3,
 		"strength": 50,
+		"rangedStrength": 145,
 		"cost": 450,
 		"requiredTech": "Rocketry",
 		"requiredResource": "Oil",
-		"uniques": ["[+100]% Strength <when defending>", "[+145]% Strength <when attacking>"],
+		"uniques": ["[+100]% Strength <when defending>", "[+55]% Strength <vs cities> <when attacking>", "[+3] Range"],
 		"attackSound": "missile"
 	},
 	{
