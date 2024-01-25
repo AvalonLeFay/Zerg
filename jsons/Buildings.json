@@ -32,7 +32,7 @@
 		"uniqueTo": "Zerg",
 		"maintenance": 3,
 		"cost": 75,
-		"uniques": ["Destroyed when the city is captured", "Limited to [3] per Civilization", "[+10]% Strength <for [Land] units>"],
+		"uniques": ["Destroyed when the city is captured", "Limited to [3] per Civilization", "[+10]% Strength <for [Land] units>", "Consumes [1] [Iron]", "Consumes [1] [Horses]"],
 	},
 	{
 		"name": "Lair",
@@ -96,7 +96,7 @@
 		"cityStrength": 1,
 		"cityHealth": 2000,
 		"cost": 1,
-		"uniques": ["Indicates the capital city", "[+50]% Production when constructing [Civilian] units [in this city]", "[+15] Unit Supply", "[+1 Faith, +1 Production] from [Friendly Land] tiles [in all cities]", "[-25]% construction time for [All] improvements"]
+		"uniques": ["Indicates the capital city", "[+50]% Production when constructing [Civilian] units [in this city]", "[+15] Unit Supply", "[-25]% construction time for [All] improvements"]
 	},
 	{
 		"name": "Pylon",
@@ -104,7 +104,7 @@
 		"food": 2,
 		"production": 2,
 		"cost": 100,
-		"uniques": ["[+8] Unit Supply", "Destroyed when the city is captured"]
+		"uniques": ["[+8] Unit Supply", "[+1 Faith, +1 Production] from [Friendly Land] tiles [in this city]", "Destroyed when the city is captured"]
 	},
 	{
 		"name": "Assimilator",
@@ -128,7 +128,7 @@
 	{
 		"name": "Forge",
 		"uniqueTo": "Protoss",
-		"maintenance": 1,
+		"maintenance": 3,
 		"cost": 150,
 		"requiredBuilding": "Pylon",
 		"uniques": ["[+10]% Strength <for [Land] units>", "Destroyed when the city is captured", "Limited to [3] per Civilization"],
@@ -141,7 +141,7 @@
 		"maintenance": 1,
 		"cost": 150,
 		"requiredBuilding": "Gateway",
-		"uniques": ["[+50]% Production when constructing [Land] units [in all cities]", "Destroyed when the city is captured"],
+		"uniques": ["[+30]% Strength <for [Air] units>", "[+50]% Production when constructing [Land] units [in all cities]", "Destroyed when the city is captured"],
 		"requiredTech": "Chivalry"
 	},
 	{
