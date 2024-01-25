@@ -29,7 +29,7 @@
 		"religiousStrength": 1750
 	},
 	{
-		"name": "Zergling",
+		"name": "Zerglingg",
 		"unitType": "Sword",
 		"uniqueTo": "Zerg",
 		"replaces": "Warrior",
@@ -37,10 +37,10 @@
 		"strength": 18,
 		"cost": 50,
 		"upgradesTo": "Baneling",
-		"uniques": ["Can move after attacking", "Unit will heal every turn, even if it performs an action", "[2] additional attacks per turn", "Damage is ignored when determining unit Strength", "Free [Zergling 2] appears"],
+		"uniques": ["Can move after attacking", "Unit will heal every turn, even if it performs an action", "[2] additional attacks per turn", "Damage is ignored when determining unit Strength", "[2] free [Zergling] units appear"],
 	},
 	{
-		"name": "Zergling 2",
+		"name": "Zergling",
 		"unitType": "Sword",
 		"uniqueTo": "Zerg",
 		"replaces": "Warrior",
