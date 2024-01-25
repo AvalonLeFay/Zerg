@@ -23,7 +23,7 @@
 		"uniqueTo": "Zerg",
 		"replaces": "Great Prophet",
 		"cost": 150,
-		"uniques": ["Can Spread Religion <for [2] movement>", "All adjacent units heal [+50] HP when healing", "[+15]% Strength bonus for [Military] units within [3] tiles","Removes other religions when spreading religion", "May found a religion <by consuming this unit> <if it hasn't used other actions yet>", "May enhance a religion <by consuming this unit>  <if it hasn't used other actions yet>", "May enter foreign tiles without open borders", "Great Person - [Faith]", "Religious Unit","Takes your religion over the one in their birth city"],
+		"uniques": ["Can Spread Religion <for [2] movement>", "All adjacent units heal [+50] HP when healing","Removes other religions when spreading religion", "May found a religion <by consuming this unit> <if it hasn't used other actions yet>", "May enhance a religion <by consuming this unit>  <if it hasn't used other actions yet>", "May enter foreign tiles without open borders", "Great Person - [Faith]", "Religious Unit","Takes your religion over the one in their birth city"],
 		"movement": 2,
 		"requiredTech": "Pottery",
 		"religiousStrength": 1750
@@ -49,6 +49,7 @@
 		"rangedStrength": 22,
 		"cost": 125,
 		"upgradesTo": "Ravager",
+		"requiredResource": "Horses",
 		"uniques": ["Unit will heal every turn, even if it performs an action", "All healing effects doubled", "Damage is ignored when determining unit Strength", "May heal outside of friendly territory", "No defensive terrain bonus", "[-1] Range"],
 		"requiredTech": "Iron Working",
 		"attackSound": "arrow"
@@ -75,7 +76,7 @@
 		"cost": 300,
 		"requiredTech": "Chivalry",
 		"requiredResource": "Iron",
-		"uniques": ["Earn [60]% of the damage done to [City] units as [Gold]", "Unit will heal every turn, even if it performs an action", "Destroys tile improvements when attacking", "Damage is ignored when determining unit Strength", "[+60]% Strength <vs cities> <when attacking>"],
+		"uniques": ["Earn [60]% of the damage done to [City] units as [Gold]", "Unit will heal every turn, even if it performs an action", "Destroys tile improvements when attacking", "Damage is ignored when determining unit Strength", "[+60]% Strength <vs cities> <when attacking>", "Consumes [1] [Iron]", "Consumes [1] [Horses]"],
 	},
 	{
 		"name": "Hydralisk",
@@ -99,7 +100,7 @@
 		"cost": 450,
 		"requiredTech": "Metallurgy",
 		"requiredResource": "Iron",
-		"uniques": ["Unit will heal every turn, even if it performs an action", "[+3] Range", "Must set up to ranged attack", "[1] additional attacks per turn", "[+100]% Strength <when attacking>"],
+		"uniques": ["Unit will heal every turn, even if it performs an action", "[+3] Range", "Must set up to ranged attack", "[1] additional attacks per turn", "[+100]% Strength <when attacking>", "Consumes [1] [Iron]"],
 		"attackSound": "crossbow"
 	},
 	{
@@ -111,7 +112,7 @@
 		"cost": 700,
 		"requiredTech": "Nuclear Fission",
 		"requiredResource": "Uranium",
-		"uniques": ["Unit will heal every turn, even if it performs an action", "[+50]% Strength <vs cities> <when attacking>", "Damage is ignored when determining unit Strength", "[+60]% Strength <when defending>"],
+		"uniques": ["Unit will heal every turn, even if it performs an action", "[+50]% Strength <vs cities> <when attacking>", "Damage is ignored when determining unit Strength", "[+60]% Strength <when defending>", "Consumes [3] [Iron]"],
 	},
 	{
 		"name": "Corruptor",
@@ -152,7 +153,7 @@
 		"cost": 750,
 		"requiredTech": "Radar",
 		"requiredResource": "Aluminum",
-		"uniques": ["No defensive terrain bonus", "Cannot be carried by [Carrier] units", "[+2] Sight", "Can see over obstacles", "All tiles cost 1 movement", "[2] additional attacks per turn"],
+		"uniques": ["No defensive terrain bonus", "Cannot be carried by [Carrier] units", "[+2] Sight", "Can see over obstacles", "All tiles cost 1 movement", "[2] additional attacks per turn", "Consumes [3] [Oil]"],
 		"attackSound": "bombing"
 	},
 	{
@@ -256,7 +257,7 @@
 		"movement": 2,
 		"strength": 20,
 		"cost": 175,
-		"uniques": ["[+20]% Strength <when defending>", "Invisible to others", "Can see over obstacles", "[+3] Sight", "Can see invisible [All] units"],
+		"uniques": ["[+20]% Strength <when defending>", "Invisible to others", "Can see over obstacles", "[+3] Sight", "Can see invisible [All] units", "May enter foreign tiles without open borders"],
 		"promotions": ["Ignore terrain cost"],
 		"attackSound": "nonmetalhit"
 	},
@@ -270,7 +271,7 @@
 		"cost": 475,
 		"requiredTech": "Combined Arms"
 		"requiredResource": "Oil"
-		"uniques": ["[+300]% Strength <when defending>", "[+65]% Strength <vs [Armored] units>", "Can move after attacking"],
+		"uniques": ["[+300]% Strength <when defending>", "[+65]% Strength <vs [Armored] units>", "Can move after attacking", "Consumes [1] [Iron]"],
 	},
 	{
 		"name": "Protoss Colossus",
@@ -283,11 +284,11 @@
 		"cost": 700,
 		"requiredTech": "Lasers"
 		"requiredResource": "Aluminum"
-		"uniques": ["[+150]% Strength <when defending>", "[+65]% Strength <when attacking>", "Can move after attacking", "[1] additional attacks per turn", "No defensive terrain bonus", "[+2] Range"],
+		"uniques": ["[+150]% Strength <when defending>", "[+65]% Strength <when attacking>", "Can move after attacking", "[1] additional attacks per turn", "No defensive terrain bonus", "[+2] Range", "Consumes [2] [Iron]"],
 	},
 	{
 		"name": "Disruptor",
-		"unitType": "Gunpowder",
+		"unitType": "Siege",
 		"replaces": "Mobile SAM",
 		"uniqueTo": "Protoss",
 		"movement": 3,
@@ -296,7 +297,7 @@
 		"cost": 450,
 		"requiredTech": "Rocketry",
 		"requiredResource": "Oil",
-		"uniques": ["[+100]% Strength <when defending>", "[+55]% Strength <vs cities> <when attacking>", "[+3] Range"],
+		"uniques": ["[+100]% Strength <when defending>", "[+55]% Strength <vs cities> <when attacking>", "[+3] Range", "Must set up to ranged attack", "Consumes [2] [Iron]"],
 		"attackSound": "missile"
 	},
 	{
