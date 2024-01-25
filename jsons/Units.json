@@ -37,7 +37,7 @@
 		"strength": 18,
 		"cost": 50,
 		"upgradesTo": "Baneling",
-		"uniques": ["Can move after attacking", "Unit will heal every turn, even if it performs an action", "[2] additional attacks per turn", "Damage is ignored when determining unit Strength", "Free [Zerglingg] appears"],
+		"uniques": ["Can move after attacking", "Unit will heal every turn, even if it performs an action", "[2] additional attacks per turn", "Damage is ignored when determining unit Strength", "[1] free [Zerglingg] units appear"],
 	},
 	{
 		"name": "Zerglingg",
