@@ -23,7 +23,7 @@
 		"uniqueTo": "Zerg",
 		"replaces": "Great Prophet",
 		"cost": 150,
-		"uniques": ["Can Spread Religion <for [2] movement>", "All adjacent units heal [+50] HP when healing","Removes other religions when spreading religion", "May found a religion <by consuming this unit> <if it hasn't used other actions yet>", "May enhance a religion <by consuming this unit>  <if it hasn't used other actions yet>", "May enter foreign tiles without open borders", "Great Person - [Faith]", "Religious Unit","Takes your religion over the one in their birth city"],
+		"uniques": ["Can Spread Religion <for [2] movement>", "All adjacent units heal [+50] HP when healing","Removes other religions when spreading religion", "May found a religion <by consuming this unit> <if it hasn't used other actions yet>", "May enhance a religion <by consuming this unit>  <if it hasn't used other actions yet>", "May enter foreign tiles without open borders", "Great Person - [Faith]", "Religious Unit","Takes your religion over the one in their birth city", "Uncapturable"],
 		"movement": 2,
 		"requiredTech": "Pottery",
 		"religiousStrength": 1750
@@ -37,7 +37,18 @@
 		"strength": 18,
 		"cost": 50,
 		"upgradesTo": "Baneling",
-		"uniques": ["Can move after attacking", "Unit will heal every turn, even if it performs an action", "[2] additional attacks per turn", "Damage is ignored when determining unit Strength"],
+		"uniques": ["Can move after attacking", "Unit will heal every turn, even if it performs an action", "[2] additional attacks per turn", "Damage is ignored when determining unit Strength", "Free [Zergling 2] appears"],
+	},
+	{
+		"name": "Zergling 2",
+		"unitType": "Sword",
+		"uniqueTo": "Zerg",
+		"replaces": "Warrior",
+		"movement": 4,
+		"strength": 18,
+		"cost": 50,
+		"upgradesTo": "Baneling",
+		"uniques": ["Can move after attacking", "Unit will heal every turn, even if it performs an action", "[2] additional attacks per turn", "Damage is ignored when determining unit Strength", "Unbuildable"],
 	},
 	{
 		"name": "Roach",
