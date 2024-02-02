@@ -131,7 +131,7 @@
 		"maintenance": 3,
 		"cost": 150,
 		"requiredBuilding": "Pylon",
-		"uniques": ["[+10]% Strength <for [Land] units>", "Destroyed when the city is captured", "Limited to [3] per Civilization"],
+		"uniques": ["[+10]% Strength <for [Land] units>", "Destroyed when the city is captured", "Limited to [3] per Civilization", "Consumes [1] [Iron]"],
 		"requiredTech": "Bronze Working"
 	},
 	{
