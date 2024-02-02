@@ -14,7 +14,7 @@
 		"uniqueTo": "Zerg",
 		"replaces": "Great General",
 		"cost": 100,
-		"uniques": ["[+30]% Strength bonus for [Military] units within [5] tiles","Can be earned through combat", "Religious Unit", "Uncapturable", "Prevents spreading of religion to the city it is next to", "Can remove other religions from cities <in [Friendly] tiles> <once> <after which this unit is consumed>"],
+		"uniques": ["[+30]% Strength bonus for [Military] units within [5] tiles","Can be earned through combat", "Religious Unit", "Uncapturable", "Prevents spreading of religion to the city it is next to", "Can remove other religions from cities <in [Friendly] tiles> <once> <after which this unit is consumed>", "Can see invisible [All] units"],
 		"movement": 1
 	},
 	{
@@ -60,7 +60,6 @@
 		"rangedStrength": 22,
 		"cost": 125,
 		"upgradesTo": "Ravager",
-		"requiredResource": "Horses",
 		"uniques": ["Unit will heal every turn, even if it performs an action", "All healing effects doubled", "Damage is ignored when determining unit Strength", "May heal outside of friendly territory", "No defensive terrain bonus", "[-1] Range"],
 		"requiredTech": "Iron Working",
 		"attackSound": "arrow"
@@ -87,7 +86,7 @@
 		"cost": 300,
 		"requiredTech": "Chivalry",
 		"requiredResource": "Iron",
-		"uniques": ["Earn [60]% of the damage done to [City] units as [Gold]", "Unit will heal every turn, even if it performs an action", "Destroys tile improvements when attacking", "Damage is ignored when determining unit Strength", "[+60]% Strength <vs cities> <when attacking>", "Consumes [1] [Iron]", "Consumes [1] [Horses]"],
+		"uniques": ["Earn [60]% of the damage done to [City] units as [Gold]", "Unit will heal every turn, even if it performs an action", "Destroys tile improvements when attacking", "Damage is ignored when determining unit Strength", "[+60]% Strength <vs cities> <when attacking>", "Consumes [1] [Horses]"],
 	},
 	{
 		"name": "Hydralisk",
@@ -268,7 +267,7 @@
 		"movement": 2,
 		"strength": 20,
 		"cost": 175,
-		"uniques": ["[+20]% Strength <when defending>", "Invisible to others", "Can see over obstacles", "[+3] Sight", "Can see invisible [All] units", "May enter foreign tiles without open borders"],
+		"uniques": ["[+20]% Strength <when defending>", "Invisible to others", "Can see over obstacles", "[+3] Sight", "Can see invisible [All] units", "May enter foreign tiles without open borders", "Cannot attack"],
 		"promotions": ["Ignore terrain cost"],
 		"attackSound": "nonmetalhit"
 	},
